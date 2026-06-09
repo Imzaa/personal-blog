@@ -1,4 +1,6 @@
-# Khairul Azmi - Personal Blog
+# Khairul Azmi - Personal Blog 
+
+https://imzaa.github.io/personal-blog/
 
 Welcome to my personal blog! This is a showcase of my interests in web development and technology.
 
