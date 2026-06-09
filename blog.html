@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Khairul Azmi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Khairul Azmi</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Blog Section -->
+    <section class="blog-section">
+        <div class="blog-container">
+            <h1>My Blog</h1>
+
+            <!-- Blog Post 1 -->
+            <article class="blog-post">
+                <h2>Getting Started with Web Development</h2>
+                <span class="post-date">Published on June 5, 2024</span>
+                
+                <p>Web development is an exciting and rewarding field. Whether you're looking to build your first website or expand your skills, this guide will help you get started on the right foot.</p>
+                
+                <h3 style="color: #3498db; margin-top: 1.5rem; margin-bottom: 0.5rem;">The Three Pillars of Web Development</h3>
+                <p><strong>1. HTML</strong> - The foundation of all web pages. HTML provides the structure and semantic meaning to web content. It tells browsers what each element on a page represents.</p>
+                
+                <p><strong>2. CSS</strong> - Cascading Style Sheets make the web beautiful. With CSS, you can control colors, layouts, typography, and create responsive designs that work on all devices.</p>
+                
+                <p><strong>3. JavaScript</strong> - Brings interactivity to your websites. JavaScript allows you to create dynamic content, handle user interactions, and build rich user experiences.</p>
+                
+                <h3 style="color: #3498db; margin-top: 1.5rem; margin-bottom: 0.5rem;">Getting Started</h3>
+                <p>Start by learning HTML basics, then move on to CSS for styling, and finally add JavaScript for interactivity. Build small projects along the way to reinforce your learning. Don't get discouraged if you don't understand everything immediately—web development is a journey, not a destination.</p>
+            </article>
+
+            <!-- Blog Post 2 -->
+            <article class="blog-post">
+                <h2>The Importance of Clean Code</h2>
+                <span class="post-date">Published on June 3, 2024</span>
+                
+                <p>Clean code is crucial for successful software development. It's not just about writing code that works; it's about writing code that's easy to understand, maintain, and scale.</p>
+                
+                <h3 style="color: #3498db; margin-top: 1.5rem; margin-bottom: 0.5rem;">Why Clean Code Matters</h3>
+                <p>Code is read much more often than it is written. Whether it's you reviewing your code weeks later or a colleague trying to understand your implementation, clean code saves time and reduces bugs. It also makes debugging easier and speeds up development cycles.</p>
+                
+                <h3 style="color: #3498db; margin-top: 1.5rem; margin-bottom: 0.5rem;">Best Practices for Clean Code</h3>
+                <ul style="margin-left: 1.5rem; line-height: 2;">
+                    <li><strong>Use meaningful names</strong> - Variables, functions, and classes should clearly indicate their purpose</li>
+                    <li><strong>Keep functions small</strong> - Each function should do one thing and do it well</li>
+                    <li><strong>Comment your code</strong> - Explain why you did something, not what the code does</li>
+                    <li><strong>DRY principle</strong> - Don't Repeat Yourself. Reuse code and avoid duplication</li>
+                    <li><strong>Format consistently</strong> - Follow a consistent style throughout your codebase</li>
+                </ul>
+                
+                <p>Remember, code is a communication tool. Write code that your teammates and future self will appreciate!</p>
+            </article>
+
+            <!-- Blog Post 3 -->
+            <article class="blog-post">
+                <h2>Responsive Design Tips</h2>
+                <span class="post-date">Published on May 30, 2024</span>
+                
+                <p>In today's mobile-first world, responsive web design is essential. Users access websites from various devices with different screen sizes, and your website should look great on all of them.</p>
+                
+                <h3 style="color: #3498db; margin-top: 1.5rem; margin-bottom: 0.5rem;">Mobile-First Approach</h3>
+                <p>Start designing for mobile devices first, then progressively enhance your design for larger screens. This ensures a solid foundation and better performance on mobile devices.</p>
+                
+                <h3 style="color: #3498db; margin-top: 1.5rem; margin-bottom: 0.5rem;">Key Responsive Techniques</h3>
+                <ul style="margin-left: 1.5rem; line-height: 2;">
+                    <li><strong>Flexible Layouts</strong> - Use percentages instead of fixed widths</li>
+                    <li><strong>Media Queries</strong> - Apply different styles for different screen sizes</li>
+                    <li><strong>Flexible Images</strong> - Make images scale with their containing elements</li>
+                    <li><strong>Viewport Meta Tag</strong> - Tell browsers how to render your page</li>
+                </ul>
+                
+                <h3 style="color: #3498db; margin-top: 1.5rem; margin-bottom: 0.5rem;">Testing</h3>
+                <p>Always test your website on real devices and use browser developer tools to simulate different screen sizes. Pay attention to touch interactions on mobile devices and ensure buttons and links are appropriately sized for finger tapping.</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Khairul Azmi. All rights reserved.</p>
+            <div class="theme-toggle">
+                <button id="theme-btn" class="theme-btn">🌙 Dark Mode</button>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
